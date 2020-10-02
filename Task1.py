@@ -26,6 +26,8 @@ while True :
                 os.system("C:\\Windows\\System32\\calc.exe")
     elif((("open" in x) or ("go to")) and ("linkedin" in x)):
                 webbrowser.open('http://linkedin.com')
+    elif((("open" in x) or ("go to")) and ("github" in x)):
+                webbrowser.open('https://github.com/')
     elif("exit" in x) or ("quit" in x):
     	break
     else:
